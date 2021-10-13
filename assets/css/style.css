@@ -103,7 +103,8 @@ to{
 #about-image{
     width: 66%;
     height: 500px;
-    background: url(../images/about-us.jpeg) no-repeat center center   
+    background: url(../images/about-us.jpeg) no-repeat center center;
+    background-size: cover;   
 }
 
 
@@ -140,7 +141,8 @@ to{
 #services-image{
     width: 66%;
     height: 500px;
-    background: url(../images/services.jpeg) no-repeat center center
+    background: url(../images/services.jpeg) no-repeat center center;
+    background-size: cover; 
 }
 /* Puppys First Groom section*/
 .flex-container-left{
@@ -163,7 +165,8 @@ to{
 #puppy-bath-image{
     width: 66%;
     height: 500px;
-    background: url(../images/puppy-bath.jpeg) no-repeat center center   
+    background: url(../images/puppy-bath.jpeg) no-repeat center center;
+    background-size: cover;    
 }
 /* footer */
 footer{
@@ -192,4 +195,26 @@ footer{
  }
  #photos > img{
      width: 100%;
+ }
+
+ /* media querys */
+
+ /* for large to medium screens size from 1200px and down */
+ @media screen and (max-width: 1200px) {
+     #about-us{
+         width: 65%;
+         height: auto;
+         margin: 0 auto;
+         font-size: 90%;
+         padding: 0px;
+     }
+     #services, #puppy-groom{
+         width: 65%;
+         height: auto;
+         margin: 0 auto;
+         padding: 0px;
+     }
+     .small-text{
+        font-size: 80% !important;
+     }
  }
