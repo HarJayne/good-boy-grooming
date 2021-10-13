@@ -182,4 +182,14 @@ footer{
     margin: 1%;
     padding: 5%;
 }
- 
+ /* gallery */
+ #photos{
+     clear: both;
+     line-height: 0px;
+     column-count: 4;
+     column-gap: 0px;
+     background: #f7eeb7;
+ }
+ #photos > img{
+     width: 100%;
+ }
