@@ -162,3 +162,20 @@ to{
     background: url(../images/puppy-bath.jpeg) no-repeat center center   
 }
 /* footer */
+footer{
+    background-color: #f7eeb7;
+    height: 150px; 
+}
+.social-media{
+  text-align: center;
+}
+.social-media li{
+    display: inline;
+}
+.social-media i{
+    font-size: 160%;
+    color: #354e59;
+    margin: 1%;
+    padding: 5%;
+}
+ 
