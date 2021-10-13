@@ -78,3 +78,35 @@ to{
     transform: scale(1.1);
 }
 }
+/* about us section*/
+.flex-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    min-width: 100%;
+    height: auto;
+}
+#about-us{
+    background-color: #cae8de;
+    width: 33%;
+    height: 400px;
+    padding: 0px 10px;
+}
+#about-us h2{
+    padding: 20px 0px;
+    text-decoration: underline;
+}
+#about-image{
+    width: 66%;
+    height: 400px;
+    background: url(../images/about-us.jpeg) no-repeat center center
+    
+}
+#about-us, #about-image{
+justify-content: space-evenly;
+}
+
+/* services section */
+#services{
+    
+}
