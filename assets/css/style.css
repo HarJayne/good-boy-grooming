@@ -218,3 +218,10 @@ footer{
         font-size: 80% !important;
      }
  }
+
+ /* for medium screen size from 950px and down */
+ @media screen and (max-width: 950px) {
+     .navbar{
+         display: block;
+     }
+ } 
