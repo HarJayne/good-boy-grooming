@@ -79,9 +79,8 @@ to{
 }
 }
 /* about us section*/
-.flex-container{
+.flex-container-left{
     display: flex;
-    justify-content: flex-start;
     flex-direction: row;
     min-width: 100%;
     height: auto;
@@ -89,8 +88,9 @@ to{
 #about-us{
     background-color: #cae8de;
     width: 33%;
-    height: 400px;
-    padding: 0px 10px;
+    height: 500px;
+    padding: 0px 20px;
+    font-size: 20px;
 }
 #about-us h2{
     padding: 20px 0px;
@@ -98,7 +98,7 @@ to{
 }
 #about-image{
     width: 66%;
-    height: 400px;
+    height: 500px;
     background: url(../images/about-us.jpeg) no-repeat center center
     
 }
@@ -107,6 +107,37 @@ justify-content: space-evenly;
 }
 
 /* services section */
+
+.flex-container-right{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    min-width: 100%;
+    height: auto;
+}
 #services{
+    background-color: #cae8de;
+    width: 33%;
+    height: 500px;
+    padding: 0px 10px;    
+}
+
+#services h2{
+    padding: 20px 0px;
+    text-decoration: underline;
+}
+#services ul{
+    display: list-item;
+    list-style: disc;
+    margin-left: 20px;
+    font-size: 20px;
     
+}
+#services li{
+    padding-bottom: 20px;
+}
+#services-image{
+    width: 66%;
+    height: 500px;
+    background: url(../images/services.jpeg) no-repeat center center
 }
