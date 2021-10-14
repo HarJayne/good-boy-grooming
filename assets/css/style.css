@@ -1,69 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
 }
-body{
+
+body {
     font-family: Montserrat, sans-serif;
     font-weight: 400;
     color: #445f6b;
 }
+
 /* headings and logo */
 
-h1, h2{
+h1,
+h2 {
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #354e59;
 }
-#logo{
+
+#logo {
     font-size: 250%;
     padding-left: 20px;
 }
-#logo i{
+
+#logo i {
     padding: 10px;
 }
-.navbar{
+
+.navbar {
     background-color: #f7eeb7;
-    display: flex; 
-    align-items: center;     
+    display: flex;
+    align-items: center;
 }
-.navbar ul{
+
+.navbar ul {
     margin-left: auto;
     padding: 0 20px;
 }
-.navbar li{
+
+.navbar li {
     display: inline-flex;
     padding: 20px 10px;
-    font-size: 150%; 
+    font-size: 150%;
     list-style: none;
     color: #354e59;
     text-decoration: none;
 }
-.navbar i{
+
+.navbar i {
     padding-left: 10px;
 }
-.navbar a{
-    text-decoration: none; 
+
+.navbar a {
+    text-decoration: none;
     color: inherit;
 }
-.menu a:hover{
+
+.menu a:hover {
     color: #354e59;
     border-bottom: 1px solid #354e59;
 }
+
 .active {
     border-bottom: 1px solid #354e59;
 }
 
 /* hero image */
-#hero-outer{
+#hero-outer {
     height: 600px;
     width: 100%;
-    overflow: hidden;   
+    overflow: hidden;
 }
-#hero-image{
+
+#hero-image {
     height: 600px;
     width: 100%;
     background: url(../images/hero-image.jpg) no-repeat center center;
@@ -73,155 +86,185 @@ h1, h2{
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
 /* zoom animation hero image*/
-@keyframes hero-zoom{
-from{
+@keyframes hero-zoom {
+    from {
         transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
 }
-to{
-    transform: scale(1.1);
-}
-}
+
 /* about us section*/
-.flex-container-left{
+.flex-container-left {
     display: flex;
     flex-direction: row;
     min-width: 100%;
     height: auto;
 }
-#about-us{
+
+#about-us {
     background-color: #cae8de;
     width: 33%;
     height: 500px;
-    padding: 0px 20px;
+    padding: 0px 30px;
     font-size: 20px;
+    font-family: roboto, sans-serif;
 }
-#about-us h2{
+
+#about-us h2 {
     padding: 20px 0px;
     text-decoration: underline;
 }
-#about-image{
+
+#about-image {
     width: 66%;
     height: 500px;
     background: url(../images/about-us.jpeg) no-repeat center center;
-    background-size: cover;   
+    background-size: cover;
 }
 
 
 /* services section */
 
-.flex-container-right{
+.flex-container-right {
     display: flex;
     justify-content: flex-start;
     flex-direction: row-reverse;
     min-width: 100%;
     height: auto;
 }
-#services{
+
+#services {
     background-color: #cae8de;
     width: 33%;
     height: 500px;
-    padding: 0px 10px;    
+    padding: 0px 30px;
 }
 
-#services h2{
+#services h2 {
     padding: 20px 0px;
     text-decoration: underline;
 }
-#services ul{
+
+#services ul {
     display: list-item;
     list-style: disc;
     margin-left: 20px;
+    font-family: roboto, sans-serif;
     font-size: 20px;
-    
+
 }
-#services li{
+
+#services li {
     padding-bottom: 20px;
 }
-#services-image{
+
+#services-image {
     width: 66%;
     height: 500px;
     background: url(../images/services.jpeg) no-repeat center center;
-    background-size: cover; 
+    background-size: cover;
 }
+
 /* Puppys First Groom section*/
-.flex-container-left{
+.flex-container-left {
     display: flex;
     flex-direction: row;
     min-width: 100%;
     height: auto;
 }
-#puppy-groom{
+
+#puppy-groom {
     background-color: #cae8de;
     width: 33%;
     height: 500px;
-    padding: 0px 20px;
+    padding: 0px 30px;
+    font-family: roboto, sans-serif;
     font-size: 20px;
 }
-#puppy-groom h2{
+
+#puppy-groom h2 {
     padding: 20px 0px;
     text-decoration: underline;
 }
-#puppy-bath-image{
+
+#puppy-bath-image {
     width: 66%;
     height: 500px;
     background: url(../images/puppy-bath.jpeg) no-repeat center center;
-    background-size: cover;    
+    background-size: cover;
 }
+
 /* footer */
-footer{
+footer {
     background-color: #f7eeb7;
-    height: 150px; 
+    height: 150px;
 }
-.social-media{
-  text-align: center;
+
+.social-media {
+    text-align: center;
 }
-.social-media li{
+
+.social-media li {
     display: inline;
 }
-.social-media i{
+
+.social-media i {
     font-size: 160%;
     color: #354e59;
     margin: 1%;
-    padding: 5%;
+    padding: 3%;
 }
- /* gallery */
- #photos{
-     clear: both;
-     line-height: 0px;
-     column-count: 4;
-     column-gap: 0px;
-     background: #f7eeb7;
- }
- #photos > img{
-     width: 100%;
- }
 
- /* media querys */
+/* gallery */
+#photos {
+    clear: both;
+    line-height: 0px;
+    column-count: 4;
+    column-gap: 0px;
+    background: #f7eeb7;
+}
 
- /* for large to medium screens size from 1200px and down */
- @media screen and (max-width: 1200px) {
-     #about-us{
-         width: 65%;
-         height: auto;
-         margin: 0 auto;
-         font-size: 90%;
-         padding: 0px;
-     }
-     #services, #puppy-groom{
-         width: 65%;
-         height: auto;
-         margin: 0 auto;
-         padding: 0px;
-     }
-     .small-text{
+#photos>img {
+    width: 100%;
+}
+
+/* media querys */
+
+/* for large to medium screens size from 1200px and down */
+@media screen and (max-width: 1200px) {
+    #about-us {
+        width: 65%;
+        height: auto;
+        margin: 0 auto;
+        font-size: 90%;
+        padding: 0px;
+    }
+
+    #services,
+    #puppy-groom {
+        width: 65%;
+        height: auto;
+        margin: 0 auto;
+        padding: 0px;
+    }
+
+    .small-text {
         font-size: 80% !important;
-     }
- }
+    }
+}
 
- /* for medium screen size from 950px and down */
- @media screen and (max-width: 950px) {
-     .navbar{
-         display: block;
-     }
- } 
+/* for medium screen size from 950px and down */
+@media screen and (max-width: 950px) {
+    .navbar {
+        display: block;
+    }
+
+    #phots {
+        column-count: 3;
+    }
+}
