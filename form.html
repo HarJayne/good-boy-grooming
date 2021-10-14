@@ -21,10 +21,10 @@
             </a>
             <ul class="menu">
                 <li>
-                    <a class="active" href="index.html">About<i class="fas fa-home"></i></a>
+                    <a href="index.html">About<i class="fas fa-home"></i></a>
                 </li>
                 <li>
-                    <a href="#">Book App<i class="fas fa-calendar-alt"></i></a>
+                    <a href="form.html" class="active">Book App<i class="fas fa-calendar-alt"></i></a>
                 </li>
                 <li>
                     <a href="gallery.html">Gallery<i class="fas fa-images"></i></a>
@@ -34,18 +34,28 @@
     </header>
     <section id="form-section">
         <div class="form-box">
-        <form action="/form-dump.html">
-            <h2>Let's book an appointment!</h2>
-            <label for="name">Name:</label>
-            <input id="name" type="text" required>
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email" required>
-            <label for="dogs-name">Dog's Name:</label>
-            <input id="dogs-name" type="text">
-            <label for="date-time">Date and Time</label>
-            <input type="datetime-local" name="date-time" id="date-time" required>
-            <label for="submit"></label>
-            <input type="submit" value="submit">    
+        <h2>Let's book an appointment!</h2>
+        <form  class="booking-form" action="/form-dump.html">
+            <div class="form-input">
+                <label for="name">Name:</label>
+                <input id="name" type="text" required>  
+            </div>
+            <div class="form-input">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-input">
+                <label for="dogs-name">Dog's Name:</label>
+                <input id="dogs-name" type="text">
+            </div>
+            <div class="form-input">
+                <label for="date-time">Date and Time</label>
+                <input type="datetime-local" name="date-time" id="date-time" required>
+            </div>
+            <div class="form-submit">
+                <label for="submit"></label>
+                <input type="submit" value="Submit"> 
+            </div>   
         </form>
         </div>
 
