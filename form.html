@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <nav class="navbar">
+        <nav class="navbar" >
             <a href="index.html">
                 <h1 id="logo"><i class="fas fa-paw"></i>Good Boy<i class="fas fa-paw"></i></h1>
             </a>
@@ -27,25 +27,28 @@
                     <a href="#">Book App<i class="fas fa-calendar-alt"></i></a>
                 </li>
                 <li>
-                    <a class="active" href="gallery.html">Gallery<i class="fas fa-images"></i></a>
-                </li>
-                <li>
-                    <a href="#">Contact<i class="fas fa-phone"></i></a>
+                    <a href="gallery.html">Gallery<i class="fas fa-images"></i></a>
                 </li>
             </ul>
         </nav>
     </header>
-    <section id="photos">
-        <div class="gallery">
-            <div class="photo"><img src="assets/images/dog-flower-collar.jpeg" alt="A dog with a flower collar"></div>
-            <div class="photo"><img src="assets/images/dog-bed.jpeg" alt="A dog lying in a fluffy bed"></div>
-            <div class="photo"><img src="assets/images/shower-cap-dog.jpg" alt="A dog with a showercap and toothbrush"></div>
-            <div class="photo"><img src="assets/images/hair-brush.jpeg" alt="A dog getting its hair brushed"></div>
-            <div class="photo"><img src="assets/images/dog-chin-trim.jpeg" alt="A dog getting its chin hairs trimmed"></div>
-            <div class="photo"><img src="assets/images/shampoo-dog.jpg" alt="A small dog with shampoo on it's head"></div>
-            <div class="photo"><img src="assets/images/golden-retreiver.jpeg" alt="A happy golden retreiver"></div>
-            <div class="photo"><img src="assets/images/dog-brushing-teeth.jpeg" alt="A dog running with a brush in it's mouth"></div>
+    <section id="form-section">
+        <div class="form-box">
+        <form action="/form-dump.html">
+            <h2>Let's book an appointment!</h2>
+            <label for="name">Name:</label>
+            <input id="name" type="text" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <label for="dogs-name">Dog's Name:</label>
+            <input id="dogs-name" type="text">
+            <label for="date-time">Date and Time</label>
+            <input type="datetime-local" name="date-time" id="date-time" required>
+            <label for="submit"></label>
+            <input type="submit" value="submit">    
+        </form>
         </div>
+
     </section>
     <footer>
         <ul class="social-media">

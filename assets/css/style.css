@@ -34,8 +34,8 @@ h2 {
 .navbar {
     background-color: #f7eeb7;
     display: flex;
+    flex-direction: row;
     align-items: center;
-    display: flex;
 }
 
 .navbar ul {
@@ -110,13 +110,13 @@ h2 {
 #about-us {
     background-color: #cae8de;
     width: 33%;
-    padding: 0px 30px;
+    padding: 20px 30px;
     font-size: 20px;
     font-family: roboto, sans-serif;
 }
 
 #about-us h2 {
-    padding: 20px 0px;
+    padding: 10px 0px;
     text-decoration: underline;
 }
 
@@ -140,11 +140,11 @@ h2 {
 #services {
     background-color: #cae8de;
     width: 33%;
-    padding: 0px 30px;
+    padding: 20px 30px;
 }
 
 #services h2 {
-    padding: 20px 0px;
+    padding: 10px 0px;
     text-decoration: underline;
 }
 
@@ -178,13 +178,13 @@ h2 {
 #puppy-groom {
     background-color: #cae8de;
     width: 33%;
-    padding: 0px 30px;
+    padding: 20px 30px;
     font-family: roboto, sans-serif;
     font-size: 20px;
 }
 
 #puppy-groom h2 {
-    padding: 20px 0px;
+    padding: 10px 0px;
     text-decoration: underline;
 }
 
@@ -216,34 +216,80 @@ footer {
 }
 
 /* gallery */
-#photos {
-    clear: both;
-    line-height: 0px;
-    column-count: 4;
-    column-gap: 0px;
+.gallery {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     background: #f7eeb7;
 }
 
-#photos>img {
+.photo{
+    width:25%;
+    display:flex;
+}
+
+.photo>img {
     width: 100%;
+}
+
+/* form */
+#form-section{
+    display: flex;
+    align-items: center;
+    background: lightcoral;
+
 }
 
 /* media querys */
 
 /* for large to medium screens size from 1200px and down */
 @media screen and (max-width: 1200px) {
-    .respond{
+    .navbar {
         flex-direction: column;
     }
+    .navbar ul{
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    .flex-container-left, .flex-container-right{
+        flex-direction: column;
+    }
+    .mobile-padding {
+        padding:10px 20px;
+    }
+    .mobile-layout{
+        width: 100% !important;
+        padding:0px !important;
+    }
+    .mobile-image{
+        width:100% !important;
+        height: 500px;
+    }
+    
+
 }
 
 /* for medium screen size from 950px and down */
 @media screen and (max-width: 950px) {
     .navbar {
-        display: block;
+        flex-direction: column;
+    }
+    .navbar li{
+        font-size: 100%;
     }
 
-    #phots {
-        column-count: 3;
+    .photo {
+        width:50%;
+    }
+}
+
+/* for small / mobile screens and down */
+@media screen and (max-width: 420px) {
+    #logo {
+        font-size:200%;
+    }
+    .photo {
+        width:100%;
     }
 }
