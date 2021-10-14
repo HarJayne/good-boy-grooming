@@ -35,6 +35,7 @@ h2 {
     background-color: #f7eeb7;
     display: flex;
     align-items: center;
+    display: flex;
 }
 
 .navbar ul {
@@ -43,7 +44,7 @@ h2 {
 }
 
 .navbar li {
-    display: inline-flex;
+    display: inline;
     padding: 20px 10px;
     font-size: 150%;
     list-style: none;
@@ -109,7 +110,6 @@ h2 {
 #about-us {
     background-color: #cae8de;
     width: 33%;
-    height: 500px;
     padding: 0px 30px;
     font-size: 20px;
     font-family: roboto, sans-serif;
@@ -122,7 +122,6 @@ h2 {
 
 #about-image {
     width: 66%;
-    height: 500px;
     background: url(../images/about-us.jpeg) no-repeat center center;
     background-size: cover;
 }
@@ -141,7 +140,6 @@ h2 {
 #services {
     background-color: #cae8de;
     width: 33%;
-    height: 500px;
     padding: 0px 30px;
 }
 
@@ -165,7 +163,6 @@ h2 {
 
 #services-image {
     width: 66%;
-    height: 500px;
     background: url(../images/services.jpeg) no-repeat center center;
     background-size: cover;
 }
@@ -181,7 +178,6 @@ h2 {
 #puppy-groom {
     background-color: #cae8de;
     width: 33%;
-    height: 500px;
     padding: 0px 30px;
     font-family: roboto, sans-serif;
     font-size: 20px;
@@ -194,7 +190,6 @@ h2 {
 
 #puppy-bath-image {
     width: 66%;
-    height: 500px;
     background: url(../images/puppy-bath.jpeg) no-repeat center center;
     background-size: cover;
 }
@@ -237,24 +232,8 @@ footer {
 
 /* for large to medium screens size from 1200px and down */
 @media screen and (max-width: 1200px) {
-    #about-us {
-        width: 65%;
-        height: auto;
-        margin: 0 auto;
-        font-size: 90%;
-        padding: 0px;
-    }
-
-    #services,
-    #puppy-groom {
-        width: 65%;
-        height: auto;
-        margin: 0 auto;
-        padding: 0px;
-    }
-
-    .small-text {
-        font-size: 80% !important;
+    .respond{
+        flex-direction: column;
     }
 }
 
