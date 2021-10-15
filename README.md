@@ -2,9 +2,9 @@
 ---
 Good Boy Grooming Studios is a website for dog owners in the Kilkenny. It offers people bathing and grooming services for their dogs. It provides a method of ensuring pet cleanliness to those who may/ may not otherwise not have the capabilities or facilities to ensure so at home. 
 
-The website can be accessed HERE* add link.
+The website can be accessed [here](https://harjayne.github.io/good-boy-grooming/)
 
-ADD MOCKUP IMAGE HERE*
+![mockup](docs/mockup.png)
 
 # Existing Features
 ---
@@ -57,4 +57,12 @@ A form dump page is displayed when all required fields have been filled to notif
 
 # Testing
 --- 
+
+
+# Deployment
+---
+
+
+# Credits
+---
 
