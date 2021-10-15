@@ -360,8 +360,17 @@ footer {
 
 /* for small / mobile screens and down */
 @media screen and (max-width: 420px) {
+    .navbar ul {
+        padding-left: 0;
+    }
+
+    .navbar li {
+        padding: 0px 10px;
+    }
+
     #logo {
         font-size: 200%;
+        padding-left: 0;
     }
 
     .photo {
