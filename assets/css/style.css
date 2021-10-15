@@ -217,16 +217,16 @@ footer {
 
 /* gallery */
 .gallery {
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     background: #f7eeb7;
 }
 
-.photo{
-    width:25%;
-    display:flex;
+.photo {
+    width: 25%;
+    display: flex;
 }
 
 .photo>img {
@@ -234,39 +234,39 @@ footer {
 }
 
 /* form */
-#form-section{
+#form-section {
     display: flex;
     align-items: center;
     background: #cae8de;
 }
 
 .form-box {
-    width:95%;
-    margin:50px auto;
+    width: 95%;
+    margin: 50px auto;
     max-width: 500px;
 }
 
 .form-box h2 {
     text-align: center;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 
 .booking-form {
     border: 2px solid #354e59;
-    border-radius:5px;
-    padding:30px;
+    border-radius: 5px;
+    padding: 30px;
 }
 
 .form-input {
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-direction: row;
-    margin-bottom:20px;
+    margin-bottom: 20px;
 }
 
 .form-input label {
-    padding-right:20px;
-    width:40%;
+    padding-right: 20px;
+    width: 40%;
     line-height: 45px;
     font-weight: bold;
 }
@@ -275,7 +275,7 @@ footer {
     border: 1px solid #354e59;
     border-radius: 5px;
     width: 60%;
-    padding:15px;
+    padding: 15px;
 }
 
 .form-submit {
@@ -283,12 +283,12 @@ footer {
 }
 
 .form-submit input {
-    background:#f7eeb7;
+    background: #f7eeb7;
     border: 1px solid #354e59;
     border-radius: 5px;
-    font-size:120%;
+    font-size: 120%;
     width: 100%;
-    padding:15px;
+    padding: 15px;
 }
 
 #thankyou {
@@ -297,10 +297,11 @@ footer {
 }
 
 .thankyou-message {
-    width:80%;
+    width: 80%;
     text-align: center;
-    margin:25% auto;
+    margin: 25% auto;
 }
+
 /* media querys */
 
 /* for large to medium screens size from 1200px and down */
@@ -308,25 +309,31 @@ footer {
     .navbar {
         flex-direction: column;
     }
-    .navbar ul{
+
+    .navbar ul {
         margin-left: 0;
         margin-bottom: 15px;
     }
-    .flex-container-left, .flex-container-right{
+
+    .flex-container-left,
+    .flex-container-right {
         flex-direction: column;
     }
+
     .mobile-padding {
-        padding:10px 20px;
+        padding: 10px 20px;
     }
-    .mobile-layout{
+
+    .mobile-layout {
         width: 100% !important;
-        padding:0px !important;
+        padding: 0px !important;
     }
-    .mobile-image{
-        width:100% !important;
+
+    .mobile-image {
+        width: 100% !important;
         height: 500px;
     }
-    
+
 
 }
 
@@ -335,26 +342,29 @@ footer {
     .navbar {
         flex-direction: column;
     }
-    .navbar li{
+
+    .navbar li {
         font-size: 100%;
     }
 
     .photo {
-        width:50%;
+        width: 50%;
     }
+
     .thankyou-message {
-        width:80%;
+        width: 80%;
         text-align: center;
-        margin:40% auto;
+        margin: 40% auto;
     }
 }
 
 /* for small / mobile screens and down */
 @media screen and (max-width: 420px) {
     #logo {
-        font-size:200%;
+        font-size: 200%;
     }
+
     .photo {
-        width:100%;
+        width: 100%;
     }
 }
