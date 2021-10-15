@@ -342,6 +342,11 @@ footer {
     .photo {
         width:50%;
     }
+    .thankyou-message {
+        width:80%;
+        text-align: center;
+        margin:40% auto;
+    }
 }
 
 /* for small / mobile screens and down */
