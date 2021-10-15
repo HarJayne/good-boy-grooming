@@ -93,8 +93,12 @@ I used [Wave](https://wave.webaim.org/) to test website accesibility throughout 
 No other bugs were found.
 # Deployment
 ---
-
-
+1. Locate the [Good Boy Grooming Studios](https://github.com/HarJayne/good-boy-grooming) repository in Github.
+2. Select 'settings' in menu above repository.
+3. Select 'pages' in menu on the left of the page.
+4. From 'source' dropdown menu select 'main' or 'master' branch.
+5. Select 'save'.
+6. Retrieve link to live delpoyed website. This can also be found [here](https://harjayne.github.io/good-boy-grooming/)
 # Credits
 ---
 
