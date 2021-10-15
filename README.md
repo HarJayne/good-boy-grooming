@@ -101,4 +101,31 @@ No other bugs were found.
 6. Retrieve link to live delpoyed website. This can also be found [here](https://harjayne.github.io/good-boy-grooming/)
 # Credits
 ---
+## Content
+Original content written by Jayne Harding based on prior knowledge and experience.
+
+## Icons
+[Font Awesome](https://fontawesome.com/)
+
+## Media
+
+### Images
+Images taken from [Pexels](https://www.pexels.com/)
+
+Images by 
+- [Matthias Zomer](https://www.pexels.com/photo/adult-brown-and-white-shih-tzu-422212/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- [Gillian Harrison](https://www.pexels.com/photo/photo-of-white-dog-sitting-on-couch-4668425/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- [nishizuka](https://www.pexels.com/photo/brown-chihuahua-485294/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- [Gustavo Fring](https://www.pexels.com/photo/a-woman-grooming-a-dog-6816866/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- [Gustavo Fring](https://www.pexels.com/photo/a-dog-showing-tongue-while-grooming-6816860/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- [Gustavo Fring](https://www.pexels.com/photo/a-dog-showing-tongue-while-grooming-6816860/)
+- [Yarolsav Shuraev](https://www.pexels.com/photo/a-woman-grooming-a-dog-6816866/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- [Valeria Boltneva](https://www.pexels.com/photo/brown-and-white-short-coated-puppy-1805164/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- [Dominica Roseclay](https://www.pexels.com/photo/winking-black-and-brown-puppy-2023384/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- [Anna Shvets](https://www.pexels.com/photo/brown-short-coated-dog-wearing-pink-hair-cap-4588019/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- [Benjamin Lehman](https://www.pexels.com/photo/cream-toy-poodle-puppy-in-bathtub-1436139/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+- [Mathew Coulton](https://www.pexels.com/photo/food-wood-house-dog-4432261/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+
+## Code
+I utilised some lessons on [W3School](https://www.w3schools.com/css/css3_flexbox.asp) in order to use CSS flexbox and CSS flex-responsive for this project.
 
