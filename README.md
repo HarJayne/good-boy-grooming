@@ -57,8 +57,40 @@ A form dump page is displayed when all required fields have been filled to notif
 
 # Testing
 --- 
+## Responsiveness
+Test responsiveness of website across different screen sizes and browser (Chrome, Safari, Safari IOS). Using dev tools some issues with sizing, padding and margin were brought to my attention and recitified.
 
+## Navigation links
+Links within navigation bar individually tested by clicking each link (About, Book App, Gallery) and ensuring it directs to the correct corresponding page. Active link underlined on active page of website. 
 
+## Social media links
+Social media links in footer tested individually and open to corresponding website in new broswer tab.
+
+## Form
+Form tested leaving different required input fields blank for each test. Form does not submit without required fields filled correctly.
+
+## Validator Testing
+To test HTML I used [HTML-W3C HTML Validator](https://validator.w3.org/)
+
+On initial validation some errors regarding duplicate tags were highlighted, along with warnings regarding sections. Duplicate tags were then removed and relevant sections changed to main. After these small changes the HTML for all pages then passed through the HTML validator with no issues.
+
+![html-validator](docs/html-validator.png)
+
+To test CSS I used [Jigsaw-CSS-Validator](https://jigsaw.w3.org/css-validator/)
+
+No errors were found when CSS was run through Jigsaw CSS validator.
+![css-validator](docs/css-validator.png)
+### Lighthouse - Dev tools
+I used lighthouse to assess website performance, accessibility, best practices and SEO.
+![lighthouse](docs/lighthouse.png)
+
+### Wave Web Accessibility Evaluation 
+I used [Wave](https://wave.webaim.org/) to test website accesibility throughout project development. One alert appears due to adjacent links (logo link and About link) using the same URL. However, these adjacent links were left as such to allow the logo to direct a first time user to the landing page.
+
+![wave](docs/wave.png)
+
+## Unfixed Bugs
+No other bugs were found.
 # Deployment
 ---
 
